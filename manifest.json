@@ -1,11 +1,11 @@
 {
-    "name": "flutter_web_portfolio",
-    "short_name": "flutter_web_portfolio",
+    "name": "marriage_countdown",
+    "short_name": "marriage_countdown",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Flutter web portfolio project",
+    "description": "Marriage Countdown is a Flutter app that tracks the time until your wedding day with a real-time countdown.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
