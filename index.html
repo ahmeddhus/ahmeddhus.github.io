@@ -21,7 +21,7 @@
   <meta name="description" content="Marriage Countdown is a Flutter app that tracks the time until your wedding day with a real-time countdown.">
 
   <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="marriage_countdown">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
@@ -31,8 +31,20 @@
 
   <title>marriage_countdown</title>
   <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/twemoji.min.css">
+
+  <style>
+    body {
+      font-family: "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+    }
+
+    .emoji {
+      font-family: "Twemoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+    }
+  </style>
 </head>
 <body>
-<script src="flutter_bootstrap.js" async></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
