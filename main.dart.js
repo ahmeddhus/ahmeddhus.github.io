@@ -48222,7 +48222,7 @@ return A.N($async$o2,r)}}
 A.QD.prototype={}
 A.xZ.prototype={
 T(a){var s=null
-return new A.pq(B.xm,"Flutter Demo",A.a0t(s,A.a2p(B.S,s,s,B.AZ),!0),s)}}
+return new A.pq(B.xm,"Ahmed & Rawan's day",A.a0t(s,A.a2p(B.S,s,s,B.AZ),!0),s)}}
 A.oQ.prototype={
 ag(){var s=A.adD(2025,2,2,16,0,0,0,0,!0)
 if(s==null)s=864e14
