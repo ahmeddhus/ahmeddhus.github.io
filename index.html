@@ -41,6 +41,18 @@
       font-family: "Twemoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
     }
   </style>
+
+  <script>
+    // Enable web file sharing
+    if (window.navigator.canShare) {
+      window.navigator.permissions.query({name: 'share-files'})
+        .then((result) => {
+          if (result.state === 'granted') {
+            // Sharing is allowed
+          }
+        });
+    }
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
